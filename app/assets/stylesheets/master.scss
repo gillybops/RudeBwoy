@@ -1,5 +1,73 @@
 @import "bootstrap";
 
+// .hero {
+//   background: image_url('hero.jpg') no-repeat center center fixed;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   height: 370px;
+// }
+
+body {
+  background: url('hero1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+p {
+  text-align: center;
+}
+
+.field-row {
+  padding: 15px 0 10px;
+  font-size: 16px;
+  line-height: 26px;
+  text-rendering: auto;
+  -webkit-font-smoothing: auto;
+}
+
+.field-row-remember { 
+   padding: 5px 0;
+   font-size: 14px;
+ }
+
+.main-content {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 520px;
+  padding: 35px 25px 20px;
+  font-size: 20px;
+  transform: translateY(-25%)
+     translateX(-50%);
+}
+
+.rude-form {
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+/*.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+*/
 .navbar {
   font-family: 'great_vibesregular', sans-serif;
   font-weight: 200;
