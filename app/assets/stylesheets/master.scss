@@ -1,1 +1,16 @@
 @import "bootstrap";
+
+.navbar {
+  font-family: 'great_vibesregular', sans-serif;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('spiration_dark.png');  
+  // margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #3DA506;
+  font-family: 'great_vibesregular', cursive;
+  font-size: 26px;
+  // margin-bottom: 0;
+}
